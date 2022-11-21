@@ -19,7 +19,6 @@ const std::string output::rules[] = {
     "Statement -> LBRACE Statements RBRACE",
     "Statement -> Type ID SC",
     "Statement -> Type ID ASSIGN Exp SC",
-	"Statement -> AUTO ID ASSIGN Exp SC",
     "Statement -> ID ASSIGN Exp SC",
     "Statement -> Call SC",
     "Statement -> RETURN SC",
